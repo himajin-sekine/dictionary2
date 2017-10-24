@@ -7,6 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E20DB1371F0272BF003AA152 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20DB1361F0272BF003AA152 /* SubViewController.swift */; };
+		E21128391F557A5C000416D6 /* 艦これ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E21128381F557A5C000416D6 /* 艦これ.jpg */; };
+		E212F7201F38346B009552AC /* 吹雪.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F7171F3832E0009552AC /* 吹雪.jpg */; };
+		E212F7211F38346E009552AC /* 白雪.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F7181F3832E0009552AC /* 白雪.jpg */; };
+		E212F7221F383473009552AC /* 初雪.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F71B1F3832E0009552AC /* 初雪.jpg */; };
+		E212F7231F383477009552AC /* 深雪.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F71E1F3832E0009552AC /* 深雪.jpg */; };
+		E212F7241F38347C009552AC /* 叢雲.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F71F1F3832E0009552AC /* 叢雲.jpg */; };
+		E212F7251F383481009552AC /* 東雲.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F7161F3832E0009552AC /* 東雲.jpg */; };
+		E212F7261F383486009552AC /* 薄雲.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F71D1F3832E0009552AC /* 薄雲.jpg */; };
+		E212F7271F38348C009552AC /* 白雲.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F7191F3832E0009552AC /* 白雲.jpg */; };
+		E212F7281F383490009552AC /* 磯波.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F71C1F3832E0009552AC /* 磯波.jpg */; };
+		E212F7291F383495009552AC /* 浦波.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F71A1F3832E0009552AC /* 浦波.jpg */; };
+		E212F7341F386342009552AC /* 綾波.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F72A1F386342009552AC /* 綾波.jpg */; };
+		E212F7351F386342009552AC /* 天霧.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F72B1F386342009552AC /* 天霧.jpg */; };
+		E212F7361F386342009552AC /* 朝霧.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F72C1F386342009552AC /* 朝霧.jpg */; };
+		E212F7371F386342009552AC /* 朧.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F72D1F386342009552AC /* 朧.jpg */; };
+		E212F7381F386342009552AC /* 狭霧.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F72E1F386342009552AC /* 狭霧.jpg */; };
+		E212F7391F386342009552AC /* 潮.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F72F1F386342009552AC /* 潮.jpg */; };
+		E212F73A1F386342009552AC /* 夕霧.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F7301F386342009552AC /* 夕霧.jpg */; };
+		E212F73B1F386342009552AC /* 敷波.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F7311F386342009552AC /* 敷波.jpg */; };
+		E212F73C1F386342009552AC /* 漣.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F7321F386342009552AC /* 漣.jpg */; };
+		E212F73D1F386342009552AC /* 曙.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E212F7331F386342009552AC /* 曙.jpg */; };
+		E2305F7D1F237FCB00E185C7 /* 北上.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2305F781F237FCB00E185C7 /* 北上.jpg */; };
+		E2305F7E1F237FCB00E185C7 /* 大井.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2305F791F237FCB00E185C7 /* 大井.jpg */; };
+		E2305F7F1F237FCB00E185C7 /* 木曽.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2305F7A1F237FCB00E185C7 /* 木曽.jpg */; };
+		E2305F801F237FCB00E185C7 /* 多摩.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2305F7B1F237FCB00E185C7 /* 多摩.jpg */; };
+		E2305F811F237FCB00E185C7 /* 球磨.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2305F7C1F237FCB00E185C7 /* 球磨.jpg */; };
+		E23D6EA71F9F4FFB00DF9F68 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D6EA61F9F4FFB00DF9F68 /* QuizViewController.swift */; };
+		E23D6EA91F9F509800DF9F68 /* QuizResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D6EA81F9F509800DF9F68 /* QuizResultViewController.swift */; };
+		E23D6EAD1F9F570900DF9F68 /* QuizSenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D6EAC1F9F570900DF9F68 /* QuizSenViewController.swift */; };
+		E2689CB41EEFF564007C1658 /* 雷.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2689CB01EEFF564007C1658 /* 雷.jpg */; };
+		E2689CB91EEFFFC4007C1658 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2689CB81EEFFFC4007C1658 /* CustomTableViewCell.swift */; };
+		E290F9D11F67F20A00C7F5A8 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E290F9CF1F67F20A00C7F5A8 /* CustomCell.swift */; };
+		E290F9D21F67F20A00C7F5A8 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E290F9D01F67F20A00C7F5A8 /* CustomCell.xib */; };
+		E290F9D41F67F33C00C7F5A8 /* haikei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E290F9D31F67F33C00C7F5A8 /* haikei.jpg */; };
+		E290F9D61F67F4D400C7F5A8 /* nc81018.png in Resources */ = {isa = PBXBuildFile; fileRef = E290F9D51F67F4D400C7F5A8 /* nc81018.png */; };
+		E290F9D81F67F64900C7F5A8 /* haikei2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E290F9D71F67F64900C7F5A8 /* haikei2.jpg */; };
+		E2C3ABCB1EF93E6700403F17 /* 榛名.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2C3ABC71EF93E6700403F17 /* 榛名.jpg */; };
+		E2C3ABCC1EF93E6700403F17 /* 霧島.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2C3ABC81EF93E6700403F17 /* 霧島.jpg */; };
+		E2C3ABCD1EF93E6700403F17 /* 比叡.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2C3ABC91EF93E6700403F17 /* 比叡.jpg */; };
+		E2C3ABCE1EF93E6700403F17 /* 金剛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2C3ABCA1EF93E6700403F17 /* 金剛.jpg */; };
+		E2C3ABD21EF9406500403F17 /* 電.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2C3ABCF1EF9406500403F17 /* 電.jpg */; };
+		E2C3ABD31EF9406500403F17 /* 暁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2C3ABD01EF9406500403F17 /* 暁.jpg */; };
+		E2C3ABD41EF9406500403F17 /* 響.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2C3ABD11EF9406500403F17 /* 響.jpg */; };
+		E2DDE4291F14D1C700E52666 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2DDE4281F14D1C700E52666 /* Info.plist */; };
+		E2DDE42B1F14D79D00E52666 /* Shipdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DDE42A1F14D79D00E52666 /* Shipdata.swift */; };
 		E2E584BB1EE6B1E100346BF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E584BA1EE6B1E100346BF2 /* AppDelegate.swift */; };
 		E2E584BD1EE6B1E100346BF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E584BC1EE6B1E100346BF2 /* ViewController.swift */; };
 		E2E584C01EE6B1E100346BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E584BE1EE6B1E100346BF2 /* Main.storyboard */; };
@@ -34,13 +80,58 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E20DB1361F0272BF003AA152 /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		E21128381F557A5C000416D6 /* 艦これ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "艦これ.jpg"; sourceTree = "<group>"; };
+		E212F7161F3832E0009552AC /* 東雲.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "東雲.jpg"; sourceTree = "<group>"; };
+		E212F7171F3832E0009552AC /* 吹雪.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "吹雪.jpg"; sourceTree = "<group>"; };
+		E212F7181F3832E0009552AC /* 白雪.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白雪.jpg"; sourceTree = "<group>"; };
+		E212F7191F3832E0009552AC /* 白雲.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白雲.jpg"; sourceTree = "<group>"; };
+		E212F71A1F3832E0009552AC /* 浦波.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "浦波.jpg"; sourceTree = "<group>"; };
+		E212F71B1F3832E0009552AC /* 初雪.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "初雪.jpg"; sourceTree = "<group>"; };
+		E212F71C1F3832E0009552AC /* 磯波.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "磯波.jpg"; sourceTree = "<group>"; };
+		E212F71D1F3832E0009552AC /* 薄雲.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "薄雲.jpg"; sourceTree = "<group>"; };
+		E212F71E1F3832E0009552AC /* 深雪.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "深雪.jpg"; sourceTree = "<group>"; };
+		E212F71F1F3832E0009552AC /* 叢雲.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "叢雲.jpg"; sourceTree = "<group>"; };
+		E212F72A1F386342009552AC /* 綾波.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "綾波.jpg"; sourceTree = "<group>"; };
+		E212F72B1F386342009552AC /* 天霧.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "天霧.jpg"; sourceTree = "<group>"; };
+		E212F72C1F386342009552AC /* 朝霧.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "朝霧.jpg"; sourceTree = "<group>"; };
+		E212F72D1F386342009552AC /* 朧.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "朧.jpg"; sourceTree = "<group>"; };
+		E212F72E1F386342009552AC /* 狭霧.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "狭霧.jpg"; sourceTree = "<group>"; };
+		E212F72F1F386342009552AC /* 潮.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "潮.jpg"; sourceTree = "<group>"; };
+		E212F7301F386342009552AC /* 夕霧.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "夕霧.jpg"; sourceTree = "<group>"; };
+		E212F7311F386342009552AC /* 敷波.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "敷波.jpg"; sourceTree = "<group>"; };
+		E212F7321F386342009552AC /* 漣.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "漣.jpg"; sourceTree = "<group>"; };
+		E212F7331F386342009552AC /* 曙.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "曙.jpg"; sourceTree = "<group>"; };
+		E2305F781F237FCB00E185C7 /* 北上.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "北上.jpg"; sourceTree = "<group>"; };
+		E2305F791F237FCB00E185C7 /* 大井.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大井.jpg"; sourceTree = "<group>"; };
+		E2305F7A1F237FCB00E185C7 /* 木曽.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "木曽.jpg"; sourceTree = "<group>"; };
+		E2305F7B1F237FCB00E185C7 /* 多摩.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "多摩.jpg"; sourceTree = "<group>"; };
+		E2305F7C1F237FCB00E185C7 /* 球磨.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "球磨.jpg"; sourceTree = "<group>"; };
+		E23D6EA61F9F4FFB00DF9F68 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		E23D6EA81F9F509800DF9F68 /* QuizResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizResultViewController.swift; sourceTree = "<group>"; };
+		E23D6EAC1F9F570900DF9F68 /* QuizSenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizSenViewController.swift; sourceTree = "<group>"; };
+		E2689CB01EEFF564007C1658 /* 雷.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "雷.jpg"; sourceTree = "<group>"; };
+		E2689CB81EEFFFC4007C1658 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = ../CustomTableViewCell.swift; sourceTree = "<group>"; };
+		E290F9CF1F67F20A00C7F5A8 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		E290F9D01F67F20A00C7F5A8 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		E290F9D31F67F33C00C7F5A8 /* haikei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikei.jpg; sourceTree = "<group>"; };
+		E290F9D51F67F4D400C7F5A8 /* nc81018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nc81018.png; sourceTree = "<group>"; };
+		E290F9D71F67F64900C7F5A8 /* haikei2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikei2.jpg; sourceTree = "<group>"; };
+		E2C3ABC71EF93E6700403F17 /* 榛名.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "榛名.jpg"; sourceTree = "<group>"; };
+		E2C3ABC81EF93E6700403F17 /* 霧島.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "霧島.jpg"; sourceTree = "<group>"; };
+		E2C3ABC91EF93E6700403F17 /* 比叡.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "比叡.jpg"; sourceTree = "<group>"; };
+		E2C3ABCA1EF93E6700403F17 /* 金剛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "金剛.jpg"; sourceTree = "<group>"; };
+		E2C3ABCF1EF9406500403F17 /* 電.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "電.jpg"; sourceTree = "<group>"; };
+		E2C3ABD01EF9406500403F17 /* 暁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "暁.jpg"; sourceTree = "<group>"; };
+		E2C3ABD11EF9406500403F17 /* 響.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "響.jpg"; sourceTree = "<group>"; };
+		E2DDE4281F14D1C700E52666 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2DDE42A1F14D79D00E52666 /* Shipdata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shipdata.swift; sourceTree = "<group>"; };
 		E2E584B71EE6B1E100346BF2 /* dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E584BA1EE6B1E100346BF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2E584BC1EE6B1E100346BF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2E584BF1EE6B1E100346BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2E584C11EE6B1E100346BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2E584C41EE6B1E100346BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E2E584C61EE6B1E100346BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2E584CB1EE6B1E100346BF2 /* dictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E584CF1EE6B1E100346BF2 /* dictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dictionaryTests.swift; sourceTree = "<group>"; };
 		E2E584D11EE6B1E100346BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,11 +189,56 @@
 			isa = PBXGroup;
 			children = (
 				E2E584BA1EE6B1E100346BF2 /* AppDelegate.swift */,
-				E2E584BC1EE6B1E100346BF2 /* ViewController.swift */,
+				E2689CB81EEFFFC4007C1658 /* CustomTableViewCell.swift */,
+				E21128381F557A5C000416D6 /* 艦これ.jpg */,
+				E212F7171F3832E0009552AC /* 吹雪.jpg */,
+				E212F7181F3832E0009552AC /* 白雪.jpg */,
+				E212F71B1F3832E0009552AC /* 初雪.jpg */,
+				E212F71E1F3832E0009552AC /* 深雪.jpg */,
+				E212F71F1F3832E0009552AC /* 叢雲.jpg */,
+				E212F7161F3832E0009552AC /* 東雲.jpg */,
+				E212F71D1F3832E0009552AC /* 薄雲.jpg */,
+				E212F7191F3832E0009552AC /* 白雲.jpg */,
+				E212F71C1F3832E0009552AC /* 磯波.jpg */,
+				E212F71A1F3832E0009552AC /* 浦波.jpg */,
+				E212F72A1F386342009552AC /* 綾波.jpg */,
+				E212F72B1F386342009552AC /* 天霧.jpg */,
+				E212F72C1F386342009552AC /* 朝霧.jpg */,
+				E212F72D1F386342009552AC /* 朧.jpg */,
+				E212F72E1F386342009552AC /* 狭霧.jpg */,
+				E212F72F1F386342009552AC /* 潮.jpg */,
+				E212F7301F386342009552AC /* 夕霧.jpg */,
+				E212F7311F386342009552AC /* 敷波.jpg */,
+				E212F7321F386342009552AC /* 漣.jpg */,
+				E212F7331F386342009552AC /* 曙.jpg */,
+				E2C3ABD01EF9406500403F17 /* 暁.jpg */,
+				E2C3ABD11EF9406500403F17 /* 響.jpg */,
+				E2689CB01EEFF564007C1658 /* 雷.jpg */,
+				E2C3ABCF1EF9406500403F17 /* 電.jpg */,
+				E2305F7C1F237FCB00E185C7 /* 球磨.jpg */,
+				E2305F7B1F237FCB00E185C7 /* 多摩.jpg */,
+				E2305F781F237FCB00E185C7 /* 北上.jpg */,
+				E2305F791F237FCB00E185C7 /* 大井.jpg */,
+				E2305F7A1F237FCB00E185C7 /* 木曽.jpg */,
+				E2C3ABCA1EF93E6700403F17 /* 金剛.jpg */,
+				E2C3ABC91EF93E6700403F17 /* 比叡.jpg */,
+				E2C3ABC71EF93E6700403F17 /* 榛名.jpg */,
+				E2C3ABC81EF93E6700403F17 /* 霧島.jpg */,
+				E290F9D31F67F33C00C7F5A8 /* haikei.jpg */,
+				E290F9D51F67F4D400C7F5A8 /* nc81018.png */,
+				E290F9D71F67F64900C7F5A8 /* haikei2.jpg */,
 				E2E584BE1EE6B1E100346BF2 /* Main.storyboard */,
+				E23D6EAC1F9F570900DF9F68 /* QuizSenViewController.swift */,
+				E23D6EA81F9F509800DF9F68 /* QuizResultViewController.swift */,
+				E23D6EA61F9F4FFB00DF9F68 /* QuizViewController.swift */,
 				E2E584C11EE6B1E100346BF2 /* Assets.xcassets */,
 				E2E584C31EE6B1E100346BF2 /* LaunchScreen.storyboard */,
-				E2E584C61EE6B1E100346BF2 /* Info.plist */,
+				E2DDE4281F14D1C700E52666 /* Info.plist */,
+				E20DB1361F0272BF003AA152 /* SubViewController.swift */,
+				E2E584BC1EE6B1E100346BF2 /* ViewController.swift */,
+				E2DDE42A1F14D79D00E52666 /* Shipdata.swift */,
+				E290F9CF1F67F20A00C7F5A8 /* CustomCell.swift */,
+				E290F9D01F67F20A00C7F5A8 /* CustomCell.xib */,
 			);
 			path = dictionary;
 			sourceTree = "<group>";
@@ -232,9 +368,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E290F9D21F67F20A00C7F5A8 /* CustomCell.xib in Resources */,
+				E212F7391F386342009552AC /* 潮.jpg in Resources */,
+				E212F7291F383495009552AC /* 浦波.jpg in Resources */,
+				E212F7281F383490009552AC /* 磯波.jpg in Resources */,
+				E212F7271F38348C009552AC /* 白雲.jpg in Resources */,
+				E212F7261F383486009552AC /* 薄雲.jpg in Resources */,
+				E212F73B1F386342009552AC /* 敷波.jpg in Resources */,
+				E212F7251F383481009552AC /* 東雲.jpg in Resources */,
+				E212F7241F38347C009552AC /* 叢雲.jpg in Resources */,
+				E212F7231F383477009552AC /* 深雪.jpg in Resources */,
+				E212F7221F383473009552AC /* 初雪.jpg in Resources */,
+				E290F9D81F67F64900C7F5A8 /* haikei2.jpg in Resources */,
+				E212F7351F386342009552AC /* 天霧.jpg in Resources */,
+				E290F9D41F67F33C00C7F5A8 /* haikei.jpg in Resources */,
+				E212F73D1F386342009552AC /* 曙.jpg in Resources */,
+				E212F7381F386342009552AC /* 狭霧.jpg in Resources */,
+				E212F7211F38346E009552AC /* 白雪.jpg in Resources */,
+				E290F9D61F67F4D400C7F5A8 /* nc81018.png in Resources */,
+				E212F7201F38346B009552AC /* 吹雪.jpg in Resources */,
+				E2C3ABD21EF9406500403F17 /* 電.jpg in Resources */,
+				E2305F7F1F237FCB00E185C7 /* 木曽.jpg in Resources */,
+				E212F73A1F386342009552AC /* 夕霧.jpg in Resources */,
+				E2C3ABCB1EF93E6700403F17 /* 榛名.jpg in Resources */,
 				E2E584C51EE6B1E100346BF2 /* LaunchScreen.storyboard in Resources */,
+				E2305F7E1F237FCB00E185C7 /* 大井.jpg in Resources */,
+				E2C3ABD41EF9406500403F17 /* 響.jpg in Resources */,
+				E212F7371F386342009552AC /* 朧.jpg in Resources */,
+				E2C3ABCE1EF93E6700403F17 /* 金剛.jpg in Resources */,
+				E2689CB41EEFF564007C1658 /* 雷.jpg in Resources */,
+				E2C3ABCD1EF93E6700403F17 /* 比叡.jpg in Resources */,
+				E2C3ABD31EF9406500403F17 /* 暁.jpg in Resources */,
+				E2305F801F237FCB00E185C7 /* 多摩.jpg in Resources */,
+				E212F73C1F386342009552AC /* 漣.jpg in Resources */,
+				E2305F811F237FCB00E185C7 /* 球磨.jpg in Resources */,
+				E2DDE4291F14D1C700E52666 /* Info.plist in Resources */,
 				E2E584C21EE6B1E100346BF2 /* Assets.xcassets in Resources */,
+				E212F7361F386342009552AC /* 朝霧.jpg in Resources */,
+				E2C3ABCC1EF93E6700403F17 /* 霧島.jpg in Resources */,
+				E212F7341F386342009552AC /* 綾波.jpg in Resources */,
+				E2305F7D1F237FCB00E185C7 /* 北上.jpg in Resources */,
 				E2E584C01EE6B1E100346BF2 /* Main.storyboard in Resources */,
+				E21128391F557A5C000416D6 /* 艦これ.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +434,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2689CB91EEFFFC4007C1658 /* CustomTableViewCell.swift in Sources */,
+				E2DDE42B1F14D79D00E52666 /* Shipdata.swift in Sources */,
 				E2E584BD1EE6B1E100346BF2 /* ViewController.swift in Sources */,
 				E2E584BB1EE6B1E100346BF2 /* AppDelegate.swift in Sources */,
+				E290F9D11F67F20A00C7F5A8 /* CustomCell.swift in Sources */,
+				E20DB1371F0272BF003AA152 /* SubViewController.swift in Sources */,
+				E23D6EA71F9F4FFB00DF9F68 /* QuizViewController.swift in Sources */,
+				E23D6EAD1F9F570900DF9F68 /* QuizSenViewController.swift in Sources */,
+				E23D6EA91F9F509800DF9F68 /* QuizResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +687,7 @@
 				E2E584E11EE6B1E100346BF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2E584E21EE6B1E100346BF2 /* Build configuration list for PBXNativeTarget "dictionaryTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +696,7 @@
 				E2E584E41EE6B1E100346BF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2E584E51EE6B1E100346BF2 /* Build configuration list for PBXNativeTarget "dictionaryUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +705,7 @@
 				E2E584E71EE6B1E100346BF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

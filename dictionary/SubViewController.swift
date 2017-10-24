@@ -10,15 +10,36 @@ import UIKit
 
 class SubViewController: UIViewController {
 
+    var selectedImg:UIImage!
+    
+    var nameStr:String!
+    
+    var contentText:String!
+    
+    @IBOutlet var image:UIImageView!
+    
+    @IBOutlet var label:UILabel!
+    
+    @IBOutlet var text:UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        image.image = selectedImg
+        
+        label.text = nameStr
+        
+        text.text = contentText
+        
         // Do any additional setup after loading the view.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func backFromHelp(segue: UIStoryboardSegue) {
     }
     
 
