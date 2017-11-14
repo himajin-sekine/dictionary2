@@ -44,6 +44,8 @@
 		E290F9D41F67F33C00C7F5A8 /* haikei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E290F9D31F67F33C00C7F5A8 /* haikei.jpg */; };
 		E290F9D61F67F4D400C7F5A8 /* nc81018.png in Resources */ = {isa = PBXBuildFile; fileRef = E290F9D51F67F4D400C7F5A8 /* nc81018.png */; };
 		E290F9D81F67F64900C7F5A8 /* haikei2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E290F9D71F67F64900C7F5A8 /* haikei2.jpg */; };
+		E2A86C4D1FA886700063B091 /* nc78150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2A86C4C1FA886700063B091 /* nc78150.jpg */; };
+		E2A86C4F1FA889650063B091 /* nc85349.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A86C4E1FA889650063B091 /* nc85349.png */; };
 		E2C3ABCB1EF93E6700403F17 /* 榛名.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2C3ABC71EF93E6700403F17 /* 榛名.jpg */; };
 		E2C3ABCC1EF93E6700403F17 /* 霧島.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2C3ABC81EF93E6700403F17 /* 霧島.jpg */; };
 		E2C3ABCD1EF93E6700403F17 /* 比叡.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2C3ABC91EF93E6700403F17 /* 比叡.jpg */; };
@@ -117,6 +119,8 @@
 		E290F9D31F67F33C00C7F5A8 /* haikei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikei.jpg; sourceTree = "<group>"; };
 		E290F9D51F67F4D400C7F5A8 /* nc81018.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nc81018.png; sourceTree = "<group>"; };
 		E290F9D71F67F64900C7F5A8 /* haikei2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikei2.jpg; sourceTree = "<group>"; };
+		E2A86C4C1FA886700063B091 /* nc78150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nc78150.jpg; sourceTree = "<group>"; };
+		E2A86C4E1FA889650063B091 /* nc85349.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nc85349.png; sourceTree = "<group>"; };
 		E2C3ABC71EF93E6700403F17 /* 榛名.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "榛名.jpg"; sourceTree = "<group>"; };
 		E2C3ABC81EF93E6700403F17 /* 霧島.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "霧島.jpg"; sourceTree = "<group>"; };
 		E2C3ABC91EF93E6700403F17 /* 比叡.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "比叡.jpg"; sourceTree = "<group>"; };
@@ -227,11 +231,13 @@
 				E290F9D31F67F33C00C7F5A8 /* haikei.jpg */,
 				E290F9D51F67F4D400C7F5A8 /* nc81018.png */,
 				E290F9D71F67F64900C7F5A8 /* haikei2.jpg */,
+				E2A86C4C1FA886700063B091 /* nc78150.jpg */,
+				E2A86C4E1FA889650063B091 /* nc85349.png */,
 				E2E584BE1EE6B1E100346BF2 /* Main.storyboard */,
+				E2E584C11EE6B1E100346BF2 /* Assets.xcassets */,
 				E23D6EAC1F9F570900DF9F68 /* QuizSenViewController.swift */,
 				E23D6EA81F9F509800DF9F68 /* QuizResultViewController.swift */,
 				E23D6EA61F9F4FFB00DF9F68 /* QuizViewController.swift */,
-				E2E584C11EE6B1E100346BF2 /* Assets.xcassets */,
 				E2E584C31EE6B1E100346BF2 /* LaunchScreen.storyboard */,
 				E2DDE4281F14D1C700E52666 /* Info.plist */,
 				E20DB1361F0272BF003AA152 /* SubViewController.swift */,
@@ -368,6 +374,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A86C4F1FA889650063B091 /* nc85349.png in Resources */,
 				E290F9D21F67F20A00C7F5A8 /* CustomCell.xib in Resources */,
 				E212F7391F386342009552AC /* 潮.jpg in Resources */,
 				E212F7291F383495009552AC /* 浦波.jpg in Resources */,
@@ -393,6 +400,7 @@
 				E2C3ABCB1EF93E6700403F17 /* 榛名.jpg in Resources */,
 				E2E584C51EE6B1E100346BF2 /* LaunchScreen.storyboard in Resources */,
 				E2305F7E1F237FCB00E185C7 /* 大井.jpg in Resources */,
+				E2A86C4D1FA886700063B091 /* nc78150.jpg in Resources */,
 				E2C3ABD41EF9406500403F17 /* 響.jpg in Resources */,
 				E212F7371F386342009552AC /* 朧.jpg in Resources */,
 				E2C3ABCE1EF93E6700403F17 /* 金剛.jpg in Resources */,

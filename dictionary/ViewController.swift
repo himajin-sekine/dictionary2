@@ -175,14 +175,14 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
             // SubViewController へ遷移するために Segue を呼び出す
             cellNum = indexPath.row
             
-            performSegue(withIdentifier: "toSub",sender: nil)
+            performSegue(withIdentifier: "toSubViewController",sender: nil)
         }
     }
     
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any!) {
-        if (segue.identifier == "toSub") {
+        if (segue.identifier == "toSubViewController") {
             let subVC: SubViewController = (segue.destination as? SubViewController)!
             // SubViewController のselectedImgに選択された画像を設定する
             subVC.selectedImg = selectedImage
