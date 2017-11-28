@@ -97,12 +97,12 @@ class QuizViewController: UIViewController {
     }
     
     func performSegueToResult() {
-        performSegue(withIdentifier: "toQuizResultView", sender: nil)
+        performSegue(withIdentifier: "ToResult", sender: nil)
     }
     
     //
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "toQuizResultView" {
+        if segue.identifier == "ToResult" {
             let resultViewController = segue.destination as! QuizResultViewController
             resultViewController.correctAnswer = self.correctAnswer
         }

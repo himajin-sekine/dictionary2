@@ -198,7 +198,7 @@
                         <outlet property="choiceBotton2" destination="60D-fN-rTu" id="6aV-mV-Q0c"/>
                         <outlet property="choiceBotton3" destination="5Il-lN-TEf" id="g26-aW-RFk"/>
                         <outlet property="quizTextView" destination="weS-li-eld" id="Hld-je-Tjc"/>
-                        <segue destination="YkO-rX-AqB" kind="modal" identifier="toQuizResultView" id="xtf-AB-C96"/>
+                        <segue destination="xYt-lT-Fis" kind="show" identifier="ToResult" id="qoj-yv-pce"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gOY-Dn-tlh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -206,59 +206,42 @@
             <point key="canvasLocation" x="2228" y="766.86656671664173"/>
         </scene>
         <!--Quiz Result View Controller-->
-        <scene sceneID="KKX-IQ-RkG">
+        <scene sceneID="e6n-Jn-m6u">
             <objects>
-                <viewController id="YkO-rX-AqB" customClass="QuizResultViewController" customModule="dictionary" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xYt-lT-Fis" customClass="QuizResultViewController" customModule="dictionary" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="IZC-vj-bxe"/>
-                        <viewControllerLayoutGuide type="bottom" id="i6B-HJ-zUj"/>
+                        <viewControllerLayoutGuide type="top" id="E1Q-dj-rm7"/>
+                        <viewControllerLayoutGuide type="bottom" id="fGd-7I-FTb"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="fTF-RY-Lrn" userLabel="View" customClass="QuizResultViewController">
+                    <view key="view" contentMode="scaleToFill" id="Xwz-BX-Hks">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CZ8-Q3-CPl">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoG-i3-S2O">
+                                <rect key="frame" x="60" y="77" width="255" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nc85349.png" translatesAutoresizingMaskIntoConstraints="NO" id="STj-aL-Zrb">
-                                <rect key="frame" x="-136" y="0.0" width="647" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEu-7u-7p4">
-                                <rect key="frame" x="16" y="28" width="343" height="293"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.54141530898526924" green="0.54677585659898476" blue="0.54677585659898476" alpha="0.66558754280821919" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="46"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HNP-fo-7GU">
-                                <rect key="frame" x="98" y="451" width="179" height="72"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgA-5V-70B">
+                                <rect key="frame" x="95" y="428" width="185" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.57510773582910324" green="0.58080187182741116" blue="0.58080187182741116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="帰還する">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                                <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="back" destination="YkO-rX-AqB" eventType="touchUpInside" id="smN-tG-El6"/>
+                                    <action selector="back" destination="xYt-lT-Fis" eventType="touchUpInside" id="vrl-dn-KRB"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <connections>
-                            <outlet property="view" destination="NEu-7u-7p4" id="yOx-g5-bCy"/>
-                        </connections>
                     </view>
                     <connections>
-                        <outlet property="resultLabel" destination="NEu-7u-7p4" id="p1H-C9-qdW"/>
+                        <outlet property="resultLabel" destination="aoG-i3-S2O" id="1ek-fO-XNL"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jRB-7J-xxA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cbk-Mr-z2E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3132" y="766.86656671664173"/>
+            <point key="canvasLocation" x="3104.8000000000002" y="766.86656671664173"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -393,7 +376,6 @@
         <!--Navigation Controller-->
         <scene sceneID="Q8d-oT-lXK">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2Is-3o-tgy" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uSI-9N-iYR" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="RrV-jk-X6G">
@@ -405,6 +387,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="kTh-27-9aL"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Is-3o-tgy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1332" y="-36.431784107946029"/>
         </scene>
@@ -449,6 +432,5 @@
         <image name="haikei2.jpg" width="800" height="480"/>
         <image name="nc78150.jpg" width="800" height="480"/>
         <image name="nc81018.png" width="1500" height="844"/>
-        <image name="nc85349.png" width="1500" height="1500"/>
     </resources>
 </document>

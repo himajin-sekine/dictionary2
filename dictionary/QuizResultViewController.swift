@@ -1,8 +1,8 @@
 //
-//  QuizResultViewController.swift
-//  dictionary
+//  ResultViewController.swift
+//  Quiz
 //
-//  Created by 関根康太 on 2017/10/24.
+//  Created by 関根康太 on 2017/02/28.
 //  Copyright © 2017年 関根康太. All rights reserved.
 //
 
@@ -31,6 +31,17 @@ class QuizResultViewController: UIViewController {
     @IBAction func back() {
         self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
         
-}
-
+    }
+    
+    
+    /*
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }

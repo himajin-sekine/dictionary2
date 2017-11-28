@@ -35,10 +35,10 @@
 		E2305F801F237FCB00E185C7 /* 多摩.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2305F7B1F237FCB00E185C7 /* 多摩.jpg */; };
 		E2305F811F237FCB00E185C7 /* 球磨.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2305F7C1F237FCB00E185C7 /* 球磨.jpg */; };
 		E23D6EA71F9F4FFB00DF9F68 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D6EA61F9F4FFB00DF9F68 /* QuizViewController.swift */; };
-		E23D6EA91F9F509800DF9F68 /* QuizResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D6EA81F9F509800DF9F68 /* QuizResultViewController.swift */; };
 		E23D6EAD1F9F570900DF9F68 /* QuizSenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D6EAC1F9F570900DF9F68 /* QuizSenViewController.swift */; };
 		E2689CB41EEFF564007C1658 /* 雷.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2689CB01EEFF564007C1658 /* 雷.jpg */; };
 		E2689CB91EEFFFC4007C1658 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2689CB81EEFFFC4007C1658 /* CustomTableViewCell.swift */; };
+		E270976B1FCD7AA4008E09CA /* QuizResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E270976A1FCD7AA4008E09CA /* QuizResultViewController.swift */; };
 		E290F9D11F67F20A00C7F5A8 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E290F9CF1F67F20A00C7F5A8 /* CustomCell.swift */; };
 		E290F9D21F67F20A00C7F5A8 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E290F9D01F67F20A00C7F5A8 /* CustomCell.xib */; };
 		E290F9D41F67F33C00C7F5A8 /* haikei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E290F9D31F67F33C00C7F5A8 /* haikei.jpg */; };
@@ -110,10 +110,10 @@
 		E2305F7B1F237FCB00E185C7 /* 多摩.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "多摩.jpg"; sourceTree = "<group>"; };
 		E2305F7C1F237FCB00E185C7 /* 球磨.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "球磨.jpg"; sourceTree = "<group>"; };
 		E23D6EA61F9F4FFB00DF9F68 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
-		E23D6EA81F9F509800DF9F68 /* QuizResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizResultViewController.swift; sourceTree = "<group>"; };
 		E23D6EAC1F9F570900DF9F68 /* QuizSenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizSenViewController.swift; sourceTree = "<group>"; };
 		E2689CB01EEFF564007C1658 /* 雷.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "雷.jpg"; sourceTree = "<group>"; };
 		E2689CB81EEFFFC4007C1658 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = ../CustomTableViewCell.swift; sourceTree = "<group>"; };
+		E270976A1FCD7AA4008E09CA /* QuizResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizResultViewController.swift; sourceTree = "<group>"; };
 		E290F9CF1F67F20A00C7F5A8 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		E290F9D01F67F20A00C7F5A8 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		E290F9D31F67F33C00C7F5A8 /* haikei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikei.jpg; sourceTree = "<group>"; };
@@ -236,8 +236,8 @@
 				E2E584BE1EE6B1E100346BF2 /* Main.storyboard */,
 				E2E584C11EE6B1E100346BF2 /* Assets.xcassets */,
 				E23D6EAC1F9F570900DF9F68 /* QuizSenViewController.swift */,
-				E23D6EA81F9F509800DF9F68 /* QuizResultViewController.swift */,
 				E23D6EA61F9F4FFB00DF9F68 /* QuizViewController.swift */,
+				E270976A1FCD7AA4008E09CA /* QuizResultViewController.swift */,
 				E2E584C31EE6B1E100346BF2 /* LaunchScreen.storyboard */,
 				E2DDE4281F14D1C700E52666 /* Info.plist */,
 				E20DB1361F0272BF003AA152 /* SubViewController.swift */,
@@ -450,7 +450,7 @@
 				E20DB1371F0272BF003AA152 /* SubViewController.swift in Sources */,
 				E23D6EA71F9F4FFB00DF9F68 /* QuizViewController.swift in Sources */,
 				E23D6EAD1F9F570900DF9F68 /* QuizSenViewController.swift in Sources */,
-				E23D6EA91F9F509800DF9F68 /* QuizResultViewController.swift in Sources */,
+				E270976B1FCD7AA4008E09CA /* QuizResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
