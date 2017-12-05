@@ -34,8 +34,8 @@ class CustomCell: UITableViewCell {
     }
     
     /// 画像・タイトル・説明文を設定するメソッド
-    func setCell(imageName: String, titleText: String, descriptionText: String) {
-        myImageView.image = UIImage(named: imageName)
+    func setCell(image: UIImage, titleText: String, descriptionText: String) {
+        myImageView.image = image
         myTitleLabel.text = titleText
         myDescriptionLabel.text = descriptionText
     }

@@ -36,6 +36,7 @@
 		E2305F811F237FCB00E185C7 /* 球磨.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2305F7C1F237FCB00E185C7 /* 球磨.jpg */; };
 		E23D6EA71F9F4FFB00DF9F68 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D6EA61F9F4FFB00DF9F68 /* QuizViewController.swift */; };
 		E23D6EAD1F9F570900DF9F68 /* QuizSenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D6EAC1F9F570900DF9F68 /* QuizSenViewController.swift */; };
+		E24498A31FD69FC3004D85C6 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24498A21FD69FC3004D85C6 /* Ship.swift */; };
 		E2689CB41EEFF564007C1658 /* 雷.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2689CB01EEFF564007C1658 /* 雷.jpg */; };
 		E2689CB91EEFFFC4007C1658 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2689CB81EEFFFC4007C1658 /* CustomTableViewCell.swift */; };
 		E270976B1FCD7AA4008E09CA /* QuizResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E270976A1FCD7AA4008E09CA /* QuizResultViewController.swift */; };
@@ -111,6 +112,7 @@
 		E2305F7C1F237FCB00E185C7 /* 球磨.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "球磨.jpg"; sourceTree = "<group>"; };
 		E23D6EA61F9F4FFB00DF9F68 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		E23D6EAC1F9F570900DF9F68 /* QuizSenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizSenViewController.swift; sourceTree = "<group>"; };
+		E24498A21FD69FC3004D85C6 /* Ship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
 		E2689CB01EEFF564007C1658 /* 雷.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "雷.jpg"; sourceTree = "<group>"; };
 		E2689CB81EEFFFC4007C1658 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = ../CustomTableViewCell.swift; sourceTree = "<group>"; };
 		E270976A1FCD7AA4008E09CA /* QuizResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizResultViewController.swift; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 				E2DDE4281F14D1C700E52666 /* Info.plist */,
 				E20DB1361F0272BF003AA152 /* SubViewController.swift */,
 				E2E584BC1EE6B1E100346BF2 /* ViewController.swift */,
+				E24498A21FD69FC3004D85C6 /* Ship.swift */,
 				E2DDE42A1F14D79D00E52666 /* Shipdata.swift */,
 				E290F9CF1F67F20A00C7F5A8 /* CustomCell.swift */,
 				E290F9D01F67F20A00C7F5A8 /* CustomCell.xib */,
@@ -451,6 +454,7 @@
 				E23D6EA71F9F4FFB00DF9F68 /* QuizViewController.swift in Sources */,
 				E23D6EAD1F9F570900DF9F68 /* QuizSenViewController.swift in Sources */,
 				E270976B1FCD7AA4008E09CA /* QuizResultViewController.swift in Sources */,
+				E24498A31FD69FC3004D85C6 /* Ship.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
