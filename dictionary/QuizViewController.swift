@@ -40,9 +40,9 @@ class QuizViewController: UIViewController {
         tmpArray.append(["夕雲型駆逐艦ではないのは","秋雲","巻雲","長波",1])
         tmpArray.append(["特III型駆逐艦はどれ","電","曙","漣",1])
         tmpArray.append(["この中で戦艦はどれ","榛名","赤城","高雄",1])
-        tmpArray.append(["（０言０；）ヴェアアアアァァァァァァァァァアアアアアアア","ギギネブラ","ココア","パルキア",2])
-        tmpArray.append(["あ","","","",2])
-        tmpArray.append(["い","","","",2])
+        tmpArray.append(["特型駆逐艦なのはどれ","雪風","吹雪","北上",2])
+        tmpArray.append(["第二次世界大戦中で一番古い戦艦はどれ","大和","金剛","日向",2])
+        tmpArray.append(["い","","初雪","",2])
         tmpArray.append(["う","","","",2])
         tmpArray.append(["え","","","",2])
         tmpArray.append(["お","","","",3])
@@ -81,6 +81,7 @@ class QuizViewController: UIViewController {
             
             //正解数増加
             correctAnswer = correctAnswer + 1
+            print("seikai")
         }
         
         //解いた問題をquizArrayから取り除く
@@ -103,6 +104,7 @@ class QuizViewController: UIViewController {
     //
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ToResult" {
+            print(correctAnswer)
             let resultViewController = segue.destination as! QuizResultViewController
             resultViewController.correctAnswer = self.correctAnswer
         }

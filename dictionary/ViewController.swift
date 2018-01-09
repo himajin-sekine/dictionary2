@@ -208,7 +208,7 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! CustomCell
         
         // セルに値を設定
-        cell.setCell(image: shipArray[indexPath.row].image, titleText: shipArray[indexPath.row].shipName, descriptionText: shipArray[indexPath.row].detailName)
+        cell.setCell(image: kensakuShipArray[indexPath.row].image, titleText: kensakuShipArray[indexPath.row].shipName, descriptionText: kensakuShipArray[indexPath.row].detailName)
         
         return cell
     }
@@ -219,20 +219,25 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
         
         kensakuShipArray.removeAll()
         
-        
+        print(searchBar.text)
         if(searchBar.text == ""){
             kensakuShipArray = shipArray
             
         }else{
             for ship in shipArray{
-                if ship.shipName == searchBar.text!{
+                print(ship.shipName)
+                
+                if ship.shipName.contains(searchBar.text!){
                     
                     kensakuShipArray.append(ship)
+                    
                     
                 }
                 
                 index += 1
             }
+            
+            print(kensakuShipArray)
         }
         
         table?.reloadData()
@@ -241,7 +246,7 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // [indexPath.row] から画像名を探し、UImage を設定
-        selectedImage = UIImage(named:"\(kennsaku[indexPath.row][0])")
+        selectedImage = kensakuShipArray[indexPath.row].image
         if selectedImage != nil {
             // SubViewController へ遷移するために Segue を呼び出す
             cellNum = indexPath.row
@@ -257,7 +262,7 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
             let subVC: SubViewController = (segue.destination as? SubViewController)!
             // SubViewController のselectedImgに選択された画像を設定する
             subVC.selectedImg = selectedImage
-            subVC.nameStr = kennsaku[cellNum][1]
+            subVC.nameStr = kensakuShipArray[cellNum].detailName
             
             
             subVC.contentText = kensakuShipArray[cellNum].content
@@ -316,6 +321,7 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
             
         }
         print(shipArray)
+        kensakuShipArray = shipArray
         
     }
     

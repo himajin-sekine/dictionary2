@@ -154,7 +154,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHj-2c-t5D">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHj-2c-t5D">
                                 <rect key="frame" x="121" y="325" width="131" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.74107709390862941" green="0.74107709390862941" blue="0.74107709390862941" alpha="0.88134096746575341" colorSpace="custom" customColorSpace="sRGB"/>
@@ -166,7 +166,7 @@
                                     <action selector="choiceAnswer:" destination="Bon-6V-VMh" eventType="touchUpInside" id="mGf-8z-i9w"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60D-fN-rTu">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60D-fN-rTu">
                                 <rect key="frame" x="122" y="427" width="131" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.74107709390862941" green="0.74107709390862941" blue="0.74107709390862941" alpha="0.88452482876712324" colorSpace="custom" customColorSpace="sRGB"/>
@@ -178,7 +178,7 @@
                                     <action selector="choiceAnswer:" destination="Bon-6V-VMh" eventType="touchUpInside" id="ioE-Xj-IZK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Il-lN-TEf">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Il-lN-TEf">
                                 <rect key="frame" x="121" y="539" width="131" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.74107709390862941" green="0.74107709390862941" blue="0.74107709390862941" alpha="0.87106699486301364" colorSpace="custom" customColorSpace="sRGB"/>
@@ -227,7 +227,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgA-5V-70B">
                                 <rect key="frame" x="95" y="428" width="185" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="帰還する"/>
                                 <connections>
                                     <action selector="back" destination="xYt-lT-Fis" eventType="touchUpInside" id="vrl-dn-KRB"/>
                                 </connections>
