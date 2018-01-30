@@ -37,6 +37,7 @@
 		E23D6EA71F9F4FFB00DF9F68 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D6EA61F9F4FFB00DF9F68 /* QuizViewController.swift */; };
 		E23D6EAD1F9F570900DF9F68 /* QuizSenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D6EAC1F9F570900DF9F68 /* QuizSenViewController.swift */; };
 		E24498A31FD69FC3004D85C6 /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24498A21FD69FC3004D85C6 /* Ship.swift */; };
+		E268871220206FB300807A94 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E268871120206FB300807A94 /* Default-568h@2x.png */; };
 		E2689CB41EEFF564007C1658 /* 雷.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2689CB01EEFF564007C1658 /* 雷.jpg */; };
 		E2689CB91EEFFFC4007C1658 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2689CB81EEFFFC4007C1658 /* CustomTableViewCell.swift */; };
 		E270976B1FCD7AA4008E09CA /* QuizResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E270976A1FCD7AA4008E09CA /* QuizResultViewController.swift */; };
@@ -70,7 +71,6 @@
 		E2E584C21EE6B1E100346BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E584C11EE6B1E100346BF2 /* Assets.xcassets */; };
 		E2E584C51EE6B1E100346BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E584C31EE6B1E100346BF2 /* LaunchScreen.storyboard */; };
 		E2E584D01EE6B1E100346BF2 /* dictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E584CF1EE6B1E100346BF2 /* dictionaryTests.swift */; };
-		E2E584DB1EE6B1E100346BF2 /* dictionaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E584DA1EE6B1E100346BF2 /* dictionaryUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +121,7 @@
 		E23D6EA61F9F4FFB00DF9F68 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		E23D6EAC1F9F570900DF9F68 /* QuizSenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizSenViewController.swift; sourceTree = "<group>"; };
 		E24498A21FD69FC3004D85C6 /* Ship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ship.swift; sourceTree = "<group>"; };
+		E268871120206FB300807A94 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E2689CB01EEFF564007C1658 /* 雷.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "雷.jpg"; sourceTree = "<group>"; };
 		E2689CB81EEFFFC4007C1658 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = ../CustomTableViewCell.swift; sourceTree = "<group>"; };
 		E270976A1FCD7AA4008E09CA /* QuizResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizResultViewController.swift; sourceTree = "<group>"; };
@@ -158,7 +159,6 @@
 		E2E584CF1EE6B1E100346BF2 /* dictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dictionaryTests.swift; sourceTree = "<group>"; };
 		E2E584D11EE6B1E100346BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2E584D61EE6B1E100346BF2 /* dictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2E584DA1EE6B1E100346BF2 /* dictionaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dictionaryUITests.swift; sourceTree = "<group>"; };
 		E2E584DC1EE6B1E100346BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -190,6 +190,7 @@
 		E2E584AE1EE6B1E100346BF2 = {
 			isa = PBXGroup;
 			children = (
+				E268871120206FB300807A94 /* Default-568h@2x.png */,
 				E2E584B91EE6B1E100346BF2 /* dictionary */,
 				E2E584CE1EE6B1E100346BF2 /* dictionaryTests */,
 				E2E584D91EE6B1E100346BF2 /* dictionaryUITests */,
@@ -288,7 +289,6 @@
 		E2E584D91EE6B1E100346BF2 /* dictionaryUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E2E584DA1EE6B1E100346BF2 /* dictionaryUITests.swift */,
 				E2E584DC1EE6B1E100346BF2 /* Info.plist */,
 			);
 			path = dictionaryUITests;
@@ -447,6 +447,7 @@
 				E2305F811F237FCB00E185C7 /* 球磨.jpg in Resources */,
 				E2DDE4291F14D1C700E52666 /* Info.plist in Resources */,
 				E2E584C21EE6B1E100346BF2 /* Assets.xcassets in Resources */,
+				E268871220206FB300807A94 /* Default-568h@2x.png in Resources */,
 				E212F7361F386342009552AC /* 朝霧.jpg in Resources */,
 				E2C3ABCC1EF93E6700403F17 /* 霧島.jpg in Resources */,
 				E212F7341F386342009552AC /* 綾波.jpg in Resources */,
@@ -502,7 +503,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2E584DB1EE6B1E100346BF2 /* dictionaryUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
