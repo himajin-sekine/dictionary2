@@ -11,7 +11,7 @@ import UIKit
 class QuizViewController: UIViewController {
     
     //問題文格納
-    var quizArray = [AnyObject] ()
+    var quizArray = [[Any]] ()
     
     //正解数
     var correctAnswer: Int = 0
@@ -56,7 +56,7 @@ class QuizViewController: UIViewController {
         
         while (tmpArray.count > 0) {
             let index = Int (arc4random()) % tmpArray.count
-            quizArray.append(tmpArray[index] as AnyObject)
+            quizArray.append((tmpArray[index] as AnyObject) as! [Any])
             tmpArray.remove(at: index)
         }
         choiceQuiz()

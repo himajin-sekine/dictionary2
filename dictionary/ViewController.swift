@@ -265,7 +265,7 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
     }
     
     
-    var shipData:[[String]] = [""]
+    var shipData:[[String]] = [[]]
     
     var kennsaku = [[String]]()
     
