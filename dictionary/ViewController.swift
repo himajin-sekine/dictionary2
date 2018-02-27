@@ -347,6 +347,7 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
         
         //shipnamearrayに艦名を入れていく　説明部分名前    //87
         shipNameArray = [
+            
 "艦これ",//1
                          
 "特Ⅰ型駆逐艦",  "吹雪","白雪","初雪","深雪","叢雲","東雲","薄雲","白雲","磯波","浦波",//11
